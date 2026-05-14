@@ -1,3 +1,5 @@
 Google Drive Course material:
 
 https://drive.google.com/drive/folders/1fnn6e8q7Ykp7nqOPWGeSiijlNTt_kkPL
+
+Face Detection - https://colab.research.google.com/drive/1FRCFt1uZ9kU3-hVYsJn_muwCW_02ZD6V?usp=sharing
