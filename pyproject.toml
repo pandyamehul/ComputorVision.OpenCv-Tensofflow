@@ -1,0 +1,12 @@
+[project]
+name = "learn-computer-vision"
+version = "0.1.0"
+description = "Learn Computer Vision with Python, OpenCV, and more!"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.10.9",
+    "numpy>=2.4.6",
+    "opencv-contrib-python>=4.13.0.92",
+    "opencv-python>=4.13.0.92",
+]
