@@ -403,3 +403,5 @@ FodyWeavers.xsd
 *.env
 *.venv
 *Ref.Material*
+
+*videos*
