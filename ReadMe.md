@@ -25,6 +25,12 @@ This repository contains resources and examples for learning computer vision usi
 - **Face Recognition**: A technology capable of identifying or verifying a person from a digital image or a video frame by comparing and analyzing patterns based on the person's facial features.
 - **Object Detection**: A computer vision technique that identifies and locates objects within an image or video, often using bounding boxes to indicate the position of detected objects.
 - **Image Processing**: The manipulation and analysis of digital images using algorithms to enhance, transform, or extract information from the images.
+- **TensorFlow**: An open-source machine learning framework developed by Google, widely used for building and training deep learning models, including CNNs for computer vision tasks.
+- **scikit-learn**: A popular machine learning library in Python that provides simple and efficient tools for data mining and data analysis, including metrics for evaluating model performance.
+- **Matplotlib**: A plotting library for Python that provides a wide range of tools for creating static, animated, and interactive visualizations, often used for displaying images and results in computer vision projects.
+- **NumPy**: A fundamental package for scientific computing in Python, providing support for large, multi-dimensional arrays and matrices, along with a collection of mathematical functions to operate on these arrays, commonly used in computer vision for image manipulation and processing.
+- **Pandas**: A powerful data manipulation and analysis library for Python, often used for handling and analyzing structured data in computer vision projects, such as datasets of images and their corresponding labels.
+- **Keras**: A high-level neural networks API, written in Python and capable of running on top of TensorFlow, used for building and training deep learning models, including CNNs for image classification and object detection tasks in computer vision.
 
 ### Prerequisites
 
@@ -64,6 +70,20 @@ Computer vision is a field of artificial intelligence that enables computers to 
 ### Object Tracking
 
 - [01.Object.Tracking.py](03_Object-Tracking/01.Object.Tracking.py): This script demonstrates how to perform object tracking using OpenCV's built-in tracking algorithms. It captures video from a specified source (e.g., a video file or webcam), allows the user to select a region of interest (ROI) for tracking, and then tracks the selected object across frames in real-time. The script uses the CSRT (Channel and Spatial Reliability Tracking) algorithm for tracking, which is known for its accuracy and robustness in various tracking scenarios.
+
+### Image Classification
+
+- [01.Image-Classification.All.Pixels.ipynb](05_Image-Classification.CNN/01.Image-Classification.All.Pixels.ipynb): This notebook demonstrates how to perform image classification using all pixels as features. It includes examples of how to load images, preprocess them, and train a simple neural network for image classification.
+
+- [02.Image-Classification.FeatureExtraction.OpenCv.ipynb](05_Image-Classification.CNN/02.Image-Classification.FeatureExtraction.OpenCv.ipynb): This notebook demonstrates how to perform image classification using feature extraction techniques with OpenCV. It includes examples of how to extract features from images using methods such as SIFT (Scale-Invariant Feature Transform) and SURF (Speeded-Up Robust Features), and then use these features for image classification.
+
+- [03.Image-Classification.Cats&Dogs.ipynb](05_Image-Classification.CNN/03.Image-Classification.Cats&Dogs.ipynb): This notebook demonstrates how to perform image classification on a dataset of cats and dogs. It includes examples of how to load images, preprocess them, and train a neural network for binary classification.
+
+### Image Classification - CNN
+
+- [01.ImageClassification.CNN.ipynb](05_Image-Classification.CNN/01.ImageClassification.CNN.ipynb): This notebook demonstrates how to perform image classification using a Convolutional Neural Network (CNN). It includes examples of how to load images, preprocess them, build and train a CNN model, and evaluate its performance.
+
+- [02.Image-Classification.Cats&Dogs.CNN.ipynb](05_Image-Classification.CNN/02.Image-Classification.Cats%26Dogs.CNN.ipynb): This notebook demonstrates how to perform image classification on a dataset of cats and dogs using a Convolutional Neural Network (CNN). It includes examples of how to load images, preprocess them, build and train a CNN model, and evaluate its performance.
 
 ## Conclusion
 

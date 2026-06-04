@@ -53,3 +53,11 @@ Convotunational Neural Network - Image Classification
 Learning Notebook - https://colab.research.google.com/drive/1Uz1ZJ44IBvtTy3PCjDTzZTLB3Ez1l21A?usp=sharing
 Assignment -https://colab.research.google.com/drive/1XBiXz-9TMXmxD7b3D5ygZO69yVyT-viQ?usp=sharing
 
+============================================================================================================================================
+
+Transfer Learning Models & Fine Tunning
+
+Learning Notebook - https://colab.research.google.com/drive/168uW1nsj9dlhE_8CJw3-Fsvcjc5EVA3a?usp=sharing
+Assignment - https://colab.research.google.com/drive/1YHZn5Hw3IsE7g2oTXuKjQNGHDsEqaGFg?usp=sharing
+
+
