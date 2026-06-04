@@ -29,3 +29,27 @@ Reference documents and material links:
     Face Recognition with Dlib ==> https://www.pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and-deep-learning/
 
 ============================================================================================================================================
+
+Object Tracking - https://drive.google.com/drive/folders/1gJD1lTvOB_7ZsHX7TqQYxGWHD4wyPb9R
+
+Reference documents and material links:
+    OpenCV documentation : https://docs.opencv.org/master/
+    Object Tracking: A Literature Review : https://arxiv.org/abs/1409.7618
+    KCF Algorithm : https://arxiv.org/abs/1404.7584
+    Improvement on KCF Algorithm : https://www.researchgate.net/publication/327844935_Improvement_of_the_KCF_Tracking_Algorithm_through_Object_Detection
+    CSRT Algorithm : https://arxiv.org/pdf/1611.08461.pdf
+
+============================================================================================================================================
+
+Neural Network - Image Classification (simple network)
+
+Learning Notebook - https://colab.research.google.com/drive/1Okf-fAAg5yKj7fpL3xOWI8del-EUVyYa?usp=sharing
+Assignment - https://colab.research.google.com/drive/1sPdeGxS4dRSGhBthDcCcSzK8dkHatSbI?usp=sharing#scrollTo=Sd_h453YseEx
+
+============================================================================================================================================
+
+Convotunational Neural Network - Image Classification
+
+Learning Notebook - https://colab.research.google.com/drive/1Uz1ZJ44IBvtTy3PCjDTzZTLB3Ez1l21A?usp=sharing
+Assignment -https://colab.research.google.com/drive/1XBiXz-9TMXmxD7b3D5ygZO69yVyT-viQ?usp=sharing
+
