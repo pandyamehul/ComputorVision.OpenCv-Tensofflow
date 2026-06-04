@@ -2,7 +2,7 @@ import cv2
 
 face_detector = cv2.CascadeClassifier("Cascades/haarcascade_frontalface_default.xml")
 face_recognizer = cv2.face.LBPHFaceRecognizer_create()
-face_recognizer.read("lbph_classifier.yml")
+face_recognizer.read("Cascades/lbph_mehul_classifier.yml")
 width, height = 220, 220
 font = cv2.FONT_HERSHEY_COMPLEX_SMALL
 camera = cv2.VideoCapture(0)
@@ -17,11 +17,11 @@ while (True):
         id, confidence = face_recognizer.predict(image_face)
         name = ""
         if id == 1:
-            name = 'Jones'
+            name = 'Mehul Pandya'
         else:
             name = 'Unknown'
-        cv2.putText(image, name, (x,y +(w+30)), font, 2, (0,0,255))
-        cv2.putText(image, str(confidence), (x,y + (h+50)), font, 1, (0,0,255))
+        cv2.putText(image, name, (x,y +(w+30)), font, 2, (0,255,0))
+        cv2.putText(image, str(confidence), (x,y + (h+50)), font, 1, (0,255,0))
 
     cv2.imshow("Face", image)
     if cv2.waitKey(1) == ord('q'):

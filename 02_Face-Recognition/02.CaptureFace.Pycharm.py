@@ -3,6 +3,7 @@ from matplotlib.pyplot import gray
 
 import cv2
 import numpy as np
+import os
 
 # Load the Haar Cascade face detector
 classifier = cv2.CascadeClassifier("Cascades/haarcascade_frontalface_default.xml")
@@ -17,6 +18,11 @@ id = input('Type a number (ID): ')
 
 width, height = 220, 220
 print("Capturing the faces...")
+# prepare output folder: one level above this script, in a `photos` directory
+script_dir = os.path.dirname(os.path.abspath(__file__))
+parent_dir = os.path.dirname(script_dir)
+photos_dir = os.path.join(parent_dir, "photos")
+os.makedirs(photos_dir, exist_ok=True)
 
 while (True):
     conected, image = camera.read()
@@ -35,9 +41,11 @@ while (True):
            if cv2.waitKey(1) & 0xFF == ord('c'):
                 if np.average(image_grey) > 110:
                     image_face = cv2.resize(image_grey[y:y + a, x:x + l], (width, height))
-                    cv2.imwrite("person." + str(id) + "." + str(sample) + ".jpg", image_face)
-                    print("[photo " + str(sample) + " captured successfully]")
-                    sample += 1    
+                    filename = f"person.{id}.{sample}.jpg"
+                    filepath = os.path.join(photos_dir, filename)
+                    cv2.imwrite(filepath, image_face)
+                    print(f"[photo {sample} captured successfully] -> {filepath}")
+                    sample += 1
            elif cv2.waitKey(1) & 0xFF == ord('q'):
                 stop = True
                 break
