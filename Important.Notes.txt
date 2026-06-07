@@ -41,17 +41,17 @@ Reference documents and material links:
 
 ============================================================================================================================================
 
-Neural Network - Image Classification (simple network)
+Image Classification - Neural Network (simple network)
 
 Learning Notebook - https://colab.research.google.com/drive/1Okf-fAAg5yKj7fpL3xOWI8del-EUVyYa?usp=sharing
 Assignment - https://colab.research.google.com/drive/1sPdeGxS4dRSGhBthDcCcSzK8dkHatSbI?usp=sharing#scrollTo=Sd_h453YseEx
 
 ============================================================================================================================================
 
-Convotunational Neural Network - Image Classification
+Image Classification - Convotunational Neural Network (CNN)
 
 Learning Notebook - https://colab.research.google.com/drive/1Uz1ZJ44IBvtTy3PCjDTzZTLB3Ez1l21A?usp=sharing
-Assignment -https://colab.research.google.com/drive/1XBiXz-9TMXmxD7b3D5ygZO69yVyT-viQ?usp=sharing
+Assignment - https://colab.research.google.com/drive/1XBiXz-9TMXmxD7b3D5ygZO69yVyT-viQ?usp=sharing
 
 ============================================================================================================================================
 
@@ -60,4 +60,15 @@ Transfer Learning Models & Fine Tunning
 Learning Notebook - https://colab.research.google.com/drive/168uW1nsj9dlhE_8CJw3-Fsvcjc5EVA3a?usp=sharing
 Assignment - https://colab.research.google.com/drive/1YHZn5Hw3IsE7g2oTXuKjQNGHDsEqaGFg?usp=sharing
 
+Reference documents and material links:
+    Literature review 1 : https://www.researchgate.net/publication/303600638_A_survey_of_transfer_learning
+    Literature review 2 : https://www.sciencedirect.com/science/article/abs/pii/S0925231220306123
+    TensorFlow documentation : https://www.tensorflow.org/tutorials/images/transfer_learning
 
+
+===========================================================================================================================================
+
+Emotions Classification - Neural Network
+
+Learning Notebook - https://colab.research.google.com/drive/1FAmiWQP7PO0h4nNl-jlXdRQHdTFhp0wP?usp=sharing
+Assignment - https://colab.research.google.com/drive/1rUYJgA4szZonJXNDyv7t-jhzYcu1Yl4U?usp=sharing
