@@ -72,3 +72,11 @@ Emotions Classification - Neural Network
 
 Learning Notebook - https://colab.research.google.com/drive/1FAmiWQP7PO0h4nNl-jlXdRQHdTFhp0wP?usp=sharing
 Assignment - https://colab.research.google.com/drive/1rUYJgA4szZonJXNDyv7t-jhzYcu1Yl4U?usp=sharing
+
+Reference documents and material links:
+    Literature review 1 : https://www.researchgate.net/publication/330383935_A_Literature_Review_on_Emotion_Recognition_Using_Various_Methods
+    Literature review 2 : https://link.springer.com/chapter/10.1007/978-981-32-9690-9_34
+    Practical tutorial : https://medium.com/@jsflo.dev/training-a-tensorflow-model-to-recognize-emotions-a20c3bcd6468
+
+===========================================================================================================================================
+

@@ -85,6 +85,16 @@ Computer vision is a field of artificial intelligence that enables computers to 
 
 - [02.Image-Classification.Cats&Dogs.CNN.ipynb](05_Image-Classification.CNN/02.Image-Classification.Cats%26Dogs.CNN.ipynb): This notebook demonstrates how to perform image classification on a dataset of cats and dogs using a Convolutional Neural Network (CNN). It includes examples of how to load images, preprocess them, build and train a CNN model, and evaluate its performance.
 
+### Transfer Learning & Fine-Tuning
+
+- [01.Transfer-Learning-&-Fine-Tunning.ipynb](06_Transfer-Learning-&-Fine-Tunning/01.Transfer-Learning-&-Fine-Tunning.ipynb) : This notebook demonstrates how to perform transfer learning and fine-tuning using pre-trained models for image classification tasks. It includes examples of how to load a pre-trained model, modify its architecture for a specific task, and fine-tune the model on a new dataset.
+- [02.Transfer-Learning-&-Fine-Tunning-Cats&Dogs.ipynb](06_Transfer-Learning-&-Fine-Tunning/02.Transfer-Learning-&-Fine-Tunning-Cats%26Dogs.ipynb) : This notebook demonstrates how to perform transfer learning and fine-tuning on a dataset of cats and dogs using a pre-trained model. It includes examples of how to load a pre-trained model, modify its architecture for binary classification, and fine-tune the model on the cats and dogs dataset.
+
+### Emotion Classification
+
+- [01.Emotion-Classification.ipynb](07_Emotion-Classification.Neural-Nw/01.Emotion-Classification.ipynb) : This notebook demonstrates how to perform emotion classification using a Convolutional Neural Network (CNN). It includes examples of how to load images, preprocess them, build and train a CNN model for emotion classification, and evaluate its performance.
+- [02.Emotion-Classification-Hw.ipynb](07_Emotion-Classification.Neural-Nw/02.Emotion-Classification-Hw.ipynb) : This notebook provides a hands-on exercise for emotion classification using a Convolutional Neural Network (CNN). It includes instructions for downloading a dataset, preprocessing the images, building and training a CNN model for emotion classification, and evaluating its performance.
+
 ## Conclusion
 
 This repository provides a comprehensive introduction to computer vision using Python and OpenCV, covering essential concepts and techniques for face detection and recognition. By exploring the provided resources and examples, you can gain a solid foundation in computer vision and start building your own applications in this exciting field.
