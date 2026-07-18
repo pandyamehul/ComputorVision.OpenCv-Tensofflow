@@ -80,3 +80,9 @@ Reference documents and material links:
 
 ===========================================================================================================================================
 
+Autoencoders
+
+Learning Notebook - https://colab.research.google.com/drive/1fwCJdsmJOFJPKUO4-40iDn-gKdEMaIG0?usp=sharing
+Assignment - https://colab.research.google.com/drive/1478AjIvCUJeEx6Mr6dYdWm0x3r2_MdpR?usp=sharing
+
+Reference documents and material links:
